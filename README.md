@@ -28,6 +28,8 @@ At the point of creating the application it supports log destinations - Kafka, F
   "message" : "My json debug message"
 }
 ```
+* Need to take care of timestamp format
+
 # 
 
 # To Run the application
