@@ -1,0 +1,7 @@
+{
+  "applicationID" : "fromLegacy_AB_125",
+  "traceId" : "a102",
+  "severity" : "DEBUG",
+  "timestamp" : "2023-03-26T01:01:01",
+  "message" : "My json file message"
+}

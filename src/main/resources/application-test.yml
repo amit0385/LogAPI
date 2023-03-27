@@ -1,0 +1,10 @@
+#Configure here for log destination
+#Available option - Kafka, File, Database
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      auto-offset-reset: earliest
+      group-id: group_id
+kafka:
+  topic: logmessage

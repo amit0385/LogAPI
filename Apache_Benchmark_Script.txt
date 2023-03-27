@@ -1,0 +1,15 @@
+--  100 request with 10 concurrent user
+
+ab -n 100 -c 10 -p C:\request.txt -T application/json  http://localhost:8000/v1/savelog/kafka
+
+-- 500 request with 100 concurrent user
+
+ab -n 500 -c 100 -p C:\request.txt -T application/json  http://localhost:8000/v1/savelog/kafka
+
+-- 1000 request with 100 concurrent user
+
+ab -n 1000 -c 1000 -p C:\request.txt -T application/json  http://localhost:8000/v1/savelog/kafka
+
+--- The above 3 is for Kafka destination , same can be checked for db and file destination
+
+Observation attached in pdf file
